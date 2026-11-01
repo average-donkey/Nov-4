@@ -1,11 +1,4 @@
-/*
-WEBSITE 04 — VINTAGE LIBRARY
-Quick edits:
-1. Change personalMessage below.
-2. Change secret messages in ordinarySecret and birthdaySecret.
-3. Replace the placeholder image by putting your own shinchan.png in assets/photos/.
-Countdown logic uses India Standard Time (UTC+05:30), independent of visitor timezone.
-*/
+
 const SITE_CONTENT = {
   personalMessage: `Well so 16 days left for your brithday huh? Well i am just here to remind you that you are worth a lott more than you think trust me.`,
   ordinarySecretTitle: "RESTRICTED ARCHIVE — SUBJECT: YOU",
