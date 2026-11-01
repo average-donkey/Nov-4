@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211b15">
+  <title>The Vintage Library </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dust" aria-hidden="true"></div>
+  <div id="gold-dust" aria-hidden="true"></div>
+
+  <header class="masthead">
+    <a class="wordmark" href="#" aria-label="Vintage Library home">THE LITTLE ARCHIVE</a>
+    <span class="masthead-note">Very Secret Archive</span>
+    <span class="date-stamp" id="date-stamp">OPEN HOURS: ALWAYS</span>
+  </header>
+
+  <main>
+    <section class="screen active" id="screen1">
+      <div class="hero-copy">
+        <p class="eyebrow">RESTRICTED COLLECTION </p>
+        <h1>Some stories<br>are <em>worth keeping.</em></h1>
+        <p class="intro-text">Esp where i am the main chracter.</p>
+        <button class="btn brass" id="open-book">OPEN THE ARCHIVE <span>↗</span></button>
+        <p class="handwritten">Please return when finished.</p>
+      </div>
+      <div class="desk-scene">
+        <div class="lamp"><span class="lamp-shade"></span><span class="lamp-stem"></span><span class="lamp-base"></span><span class="lamp-glow"></span></div>
+        <div class="book-stack"><i></i><i></i><i></i></div>
+        <button class="big-book" id="book-cover" aria-label="Open the old book">
+          <span class="cover-frame"></span><span class="cover-label">THE<br><b>YOU</b><br>ARCHIVES</span><span class="cover-symbol">✦</span><span class="cover-bottom">VOLUME XX · PRIVATE COLLECTION</span>
+        </button>
+        <div class="bookmark">
+  <img src="assets/photos/shinchan.png" alt="Shinchan">
+</div>
+        <span class="scene-caption handwritten">found on shelf 20… suspicious.</span>
+      </div>
+      <span class="page-no">I — III</span>
+    </section>
+
+    <section class="screen" id="screen2">
+      <div class="section-head">
+        <p class="eyebrow">CHAPTER 1</p>
+        <h2>Birthday records<br><em>& other mysteries.</em></h2>
+        <p>very important Book.</p>
+      </div>
+      <div class="archive-layout">
+        <aside class="shelf" aria-label="Library shelf">
+          <div class="shelf-book book-green" role="button" tabindex="0" data-record="The librarian has formally declared November 20 a matter of extreme importance..">You<br>LORE</div>
+          <div class="shelf-book book-red" role="button" tabindex="0" data-record="This record contains several incidents of top-tier nonsense.">FIELD<br>NOTES</div>
+          <div class="shelf-book book-blue" role="button" tabindex="0" data-record="I ammm soo Great no?.">Some<br>True Words</div>
+          <div class="shelf-book book-gold" role="button" tabindex="0" data-record="The subject named Physics is cool.">STAFF<br>REPORT</div>
+          <p class="shelf-label">CLICK A BOOK SPINE</p>
+        </aside>
+        <div class="record-book">
+          <div class="record-top"><span>THE CENTRAL REGISTER</span><span>№ 020</span></div>
+          <div class="record-content">
+            <p class="record-kicker" id="count-kicker">NEXT MAJOR OCCASION</p>
+            <h3 id="count-title">YOU DAY</h3>
+            <p class="record-subtitle">A date of extraordinary significance to the Scholars.</p>
+            <div class="countdown">
+              <div><b id="days">000</b><small>DAYS</small></div>
+              <div><b id="hours">00</b><small>HOURS</small></div>
+              <div><b id="minutes">00</b><small>MINUTES</small></div>
+              <div><b id="seconds">00</b><small>SECONDS</small></div>
+            </div>
+            <div class="target-date"><span>20 NOVEMBER</span><span>12:00 AM IST</span></div>
+            <div class="wax-seal">✦</div>
+          </div>
+          <div class="record-bottom"><span>PROPERTY OF THE ARCHIVE</span><span>HANDLE WITH CARE</span></div>
+        </div>
+        <aside class="side-note">
+          <p class="handwritten">Dear archive visitor,</p>
+          <p>The librarian has been informed that a birthday is approaching. The Librarian is very nonchalant to care about it.</p>
+          <span class="handwritten">— management (lying)</span>
+        </aside>
+      </div>
+      <div class="archive-actions">
+        <button class="btn outline" id="ordinary-secret">UNLOCK RESTRICTED RECORD ✦</button>
+      </div>
+      <nav class="nav"><button class="btn outline" data-go="1">← RETURN TO COVER</button><button class="btn brass" data-go="3">TURN TO THE LAST PAGE ↗</button></nav>
+      <span class="page-no">II — III</span>
+    </section>
+
+    <section class="screen" id="screen3">
+      <div class="final-layout">
+        <div class="final-book">
+          <div class="book-spine"></div>
+          <div class="final-page">
+            <p class="eyebrow">A PAGE KEPT ASIDE</p>
+            <h2>For the person<br>who became the main chracter<br>of the <em>story.</em></h2>
+            <div class="flourish">❦</div>
+            <p class="handwritten page-intro">This page is not for the catalogue.</p>
+            <button class="seal-button" id="open-letter" aria-expanded="false" aria-controls="letter"><span>✦</span><small>BREAK THE SEAL</small></button>
+            <article class="letter" id="letter" hidden>
+              <p class="letter-date">20 NOVEMBER · PRIVATE NOTE</p>
+              <h3>Dear Palak,</h3>
+              <p id="personal-message">Write your own message in script.js — this page is yours to make funny, thoughtful, chaotic, or all three.</p>
+              <p class="signature">— your favourite unpaid archivist ♡</p>
+            </article>
+          </div>
+        </div>
+        <div class="final-aside">
+          <div class="catalogue-card">
+            <p class="eyebrow">CATALOGUE NOTE</p>
+            <h3>Some things don't belong on a shelf.</h3>
+            <p>Some memories deserve their own page, with the corners folded and a rose kept between the pages.</p>
+            <div class="pressed-flower">❧</div>
+          </div>
+          <div class="tiny-photo"><img src="assets/photos/shinchan.png" alt="Optional Shinchan image" onerror="this.remove();this.parentElement.textContent='SHINCHAN\\nASSISTANT LIBRARIAN'"><span>ASSISTANT LIBRARIAN · PROBABLY NOT QUALIFIED</span></div>
+        </div>
+      </div>
+      <nav class="nav"><button class="btn outline" data-go="2">← BACK TO THE CATALOGUE</button><button class="btn brass" id="birthday-secret" hidden>OPEN THE GOLD-EDGED BOOK ✦</button></nav>
+      <span class="page-no">III — III</span>
+    </section>
+  </main>
+
+  <footer><span>THE LITTLE ARCHIVE · PRIVATE COLLECTION</span><span>COMPILED WITH QUESTIONABLE DEDICATION</span></footer>
+
+  <div class="modal-backdrop" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal">
+      <button class="modal-close" id="close-modal" aria-label="Close window">×</button>
+      <p class="eyebrow" id="modal-eyebrow">RESTRICTED RECORD</p>
+      <h2 id="modal-title">Archive entry</h2>
+      <div id="modal-content"></div>
+      <button class="btn brass" id="modal-ok">RETURN TO THE SHELVES</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
